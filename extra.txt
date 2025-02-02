@@ -1,0 +1,29 @@
+<!--   <div id="home" class="hero">
+        <h1>Connecting Businesses Across the Globe</h1>
+        <p>We specialize in seamless import and export solutions for your business.</p>
+    </div>
+    <div class="container">
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Global Trade Co. has been facilitating international trade for over 20 years. With our extensive network
+                and expertise, we ensure smooth and efficient transactions for businesses of all sizes.</p>
+        </section>
+        <section id="services">
+            <h2>Our Services</h2>
+            <ul>
+                <li>Customs Clearance</li>
+                <li>Freight Forwarding</li>
+                <li>Logistics and Warehousing</li>
+                <li>Trade Compliance Consulting</li>
+            </ul>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Email: contact@globaltradeco.com</p>
+            <p>Phone: +1 (555) 123-4567</p>
+            <p>Address: 123 Trade Ave, Suite 456, New York, NY, USA</p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2025 Global Trade Co. All rights reserved.</p>
+    </footer>  -->

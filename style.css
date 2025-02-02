@@ -1,0 +1,245 @@
+html,body{
+    font-family: "Space Grotesk", serif;
+    height: 100%;
+    width : 100%;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+ @media screen and (max-width : 500px){
+    
+    header{
+        position: relative;
+        width: 100%;
+        margin: 0px;
+        
+        padding: 15px 0px;
+        background-color: #0056b3;
+        color: aliceblue;
+        font-size: 10px;
+        text-align: center;
+        line-height: 20px;
+        border-bottom: 2px solid black;
+    }
+    
+    header h1{
+        margin: 0;
+    }
+    header p {
+        font-size:12px;
+    }
+    
+
+    nav #barIcon{
+        display: none;
+        position: relative;
+        background-color: #0056b3;
+        width: 100%;
+        font-size: 20px;
+        padding : 5px 0px;
+        color: antiquewhite;
+        text-align: center;
+        border-bottom: 2px solid black;
+    }
+    
+    nav ul.sidebar{
+        display: none;
+    }
+
+    nav ul.mobile-sidebar{
+        margin: 0px;
+        padding : 10px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap:15px;
+        background-color: #0056b3;
+        border-bottom:2px solid black;
+    }
+    ul.mobile-sidebar a{
+        display: flex;
+        gap: 5px;
+        color: antiquewhite;
+        font-size: 12px;
+        text-decoration: none;
+    }
+
+    .products{
+        text-align: center;
+    }
+    .cards{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+
+        
+    }
+    .card{
+        padding: 5px;
+        width: 80%;
+        height: 350px;
+        border: 0.5px solid black;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        box-shadow:  5px 8px 5px lightblue;
+    }
+    .card:hover{
+        scale: 1.05;
+        
+    }
+    .image{
+        width: 90%;
+        height: 70%;
+        padding: 5px;
+        border-radius: 10px;
+        object-fit: cover;
+    }
+    .img-description{
+        padding: 0px;
+        margin: 0px;
+        text-align: center;
+        width: 90%;
+        height: 30%;
+        line-height: 10px;
+    }
+    /*about from here*/
+    #about{
+        margin-top: 15px;
+        margin-inline: 5px;
+        padding : 5px;
+        background-color: #0056b3;
+        text-align: left;
+        color: antiquewhite;   
+    }
+
+    #about h1{
+        text-align: center;
+    }
+    
+#contact{
+    padding : 5px;
+    margin: 5px;
+    background-color: #0056b3;
+    color: antiquewhite;   
+}
+
+}
+@media screen and (min-width : 501px){
+    
+    header{
+        position: relative;
+        width: 100%;
+        margin: 0px;
+        padding:2px 0px;
+        background-color: #0056b3;
+        color: aliceblue;
+        font-size: 25px;
+        text-align: center;
+        line-height: 20px;
+        border-bottom: 2px solid black;
+    }
+
+    header p {
+        font-size:18px;
+    }
+    
+
+    nav #barIcon{
+        display: none;
+    }
+    
+    nav ul.mobile-sidebar{
+        display: none;
+    }
+
+    nav ul.sidebar{
+        margin: 0px;
+        padding : 10px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 50px;
+        background-color: #0056b3;
+        border-bottom:2px solid black;
+    }
+    ul.sidebar a{
+        display: flex;
+        padding: 5px;
+        color: antiquewhite;
+        font-size: 24px;
+        border: .5px solid white;
+        border-radius: 8px;
+        text-decoration: none;
+        justify-content: center;
+        align-self: center;
+    }
+
+    .products{
+        text-align: center;
+    }
+    .cards{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+
+        
+    }
+    .card{
+        padding: 5px;
+        width: 80%;
+        height: 350px;
+        border: 0.5px solid black;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        box-shadow:  5px 8px 5px lightblue;
+    }
+    .card:hover{
+        scale: 1.05;
+        
+    }
+    .image{
+        width: 90%;
+        height: 70%;
+        padding: 5px;
+        border-radius: 10px;
+        object-fit: cover;
+    }
+    .img-description{
+        padding: 0px;
+        margin: 0px;
+        text-align: center;
+        width: 90%;
+        height: 30%;
+        line-height: 10px;
+    }
+    /*about from here*/
+    #about{
+        margin-top: 15px;
+        margin-inline: 5px;
+        padding : 5px;
+        background-color: #0056b3;
+        text-align: left;
+        color: antiquewhite;   
+    }
+
+    #about h1{
+        text-align: center;
+    }
+    
+#contact{
+    padding : 5px;
+    margin: 5px;
+    background-color: #0056b3;
+    color: antiquewhite;   
+}
+
+}

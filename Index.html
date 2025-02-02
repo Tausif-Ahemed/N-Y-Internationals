@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>N.Y Internationals</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>N.Y Internationals Trade Co.</h1>
+        <p>Your Trusted Partner in Import & Export</p>
+    </header>
+    
+    <nav>
+        <i id="barIcon" class="fa-solid fa-bars" onclick=showMenu()></i>
+        <ul class="sidebar">
+            <a href="#home"><i class="fa fa-fw fa-home"></i>Home</a>
+            <a href="#about"><i class="fa fa-fw fa-user"></i>About Us</a>
+            <a href="#products"><i class="fa-brands fa-product-hunt"></i>Products</a>
+            <a href="#contact"><i class="fa fa-fw fa-envelope"></i>Contact Us</a>
+        </ul>
+        <ul class="mobile-sidebar">
+            <a href="#home"><i class="fa fa-fw fa-home"></i>Home</a>
+            <a href="#about"><i class="fa fa-fw fa-user"></i>About Us</a>
+            <a href="#products"><i class="fa-brands fa-product-hunt"></i>Products</a>
+            <a href="#contact"><i class="fa fa-fw fa-envelope"></i>Contact Us</a>
+            <a onclick="hideMenu()"><i class="fa-solid fa-x"></i></a>
+        </ul>
+    </nav>
+    
+    <div class="products" id="products">
+        <h3>Our Products</h3>
+    </div>
+
+   <div class="cards">
+        <div class="card">
+            <img class="image" src="./grain.webp"/>
+            <div class="img-description">
+                <h4>
+                    wheat
+                </h4>
+                <p>
+                    High Quality Wheat
+                </p>
+            </div>
+        </div>
+        <div class="card">
+            <img class="image" src="./j2.webp"/>
+            <div class="img-description">
+                <h4>
+                    Jaggery
+                </h4>
+                <p>
+                    High Quality Jaggery
+                </p>
+            </div>
+        </div>
+        <div class="card">
+            <img class="image" src="./j3.webp"/>
+            <div class="img-description">
+                <h4>
+                    Honey
+                </h4>
+                <p>
+                    High Quality Honey
+                </p>
+            </div>
+        </div>
+        <div class="card">
+            <img class="image" src="./jaggrey.webp"/>
+            <div class="img-description">
+                <h4>
+                    Sugar
+                </h4>
+                <p>
+                    High Quality Sugar
+                </p>
+            </div>
+        </div>
+   </div>
+
+   
+   <div id="about" >
+        <h1>
+            About Us
+        </h1>
+        <h4>
+            Who We Are :-
+        </h4>
+        <p>
+            Welcome to NY Internationals, your trusted partner in global trade. As a premier import and export business based in India, we specialize in connecting businesses worldwide with quality products, efficient solutions, and seamless international trade services.
+            We Deals in Import and Export Across the Globe.
+        </p>
+   </div>
+   
+   <div id="contact">
+        <h1>
+            Contact Us 
+        </h1>
+        <p><i class="fa-regular fa-envelope"></i> Email :- Nyinternational.co@gmail.com</p>
+        <p><i class="fa-solid fa-phone"></i> Phone :- +91 7276837609</p>
+   </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/motion@latest/dist/motion.js"></script>
+<script src="./index.js"></script>
+<!-- © 2024 i-diligence. All Rights Reserved. -->
+</html>
