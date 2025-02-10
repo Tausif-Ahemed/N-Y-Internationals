@@ -5,6 +5,7 @@ html,body{
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
+    overflow-x: hidden;
 }
 
  @media screen and (max-width : 500px){
@@ -13,7 +14,6 @@ html,body{
         position: relative;
         width: 100%;
         margin: 0px;
-        
         padding: 15px 0px;
         background-color: #0056b3;
         color: aliceblue;
@@ -59,11 +59,14 @@ html,body{
     }
     ul.mobile-sidebar a{
         display: flex;
-        gap: 5px;
+        align-items: center;
+        gap: 5px;    
         color: antiquewhite;
         font-size: 12px;
+        
         text-decoration: none;
     }
+    
 
     .products{
         text-align: center;
@@ -80,7 +83,7 @@ html,body{
     .card{
         padding: 5px;
         width: 80%;
-        height: 350px;
+        height: 450px;
         border: 0.5px solid black;
         border-radius: 5px;
         display: flex;
@@ -102,10 +105,35 @@ html,body{
     .img-description{
         padding: 0px;
         margin: 0px;
-        text-align: center;
-        width: 90%;
         height: 30%;
+        text-align: center;
+        width: 90%;        
         line-height: 10px;
+    }
+
+    .img-description p{
+       line-height: 15px; 
+    }
+    .big-map{
+        display: none;
+    }
+
+
+    .small-map{
+        
+        width: 90%;
+        border: 1px solid black;
+        padding: 5px auto;
+        margin-block : 20px;
+        margin-inline: 15px; 
+        text-align: center;
+    }
+    .small-map h1{
+        font-size: 20px;
+    }
+    .small-map iframe{
+        width: 95%;
+        object-fit: conver;
     }
     /*about from here*/
     #about{
@@ -121,7 +149,7 @@ html,body{
         text-align: center;
     }
     
-#contact{
+    #contact{
     padding : 5px;
     margin: 5px;
     background-color: #0056b3;
@@ -129,7 +157,7 @@ html,body{
 }
 
 }
-@media screen and (min-width : 501px){
+@media screen and (min-width : 500px){
     
     header{
         position: relative;
@@ -153,7 +181,7 @@ html,body{
         display: none;
     }
     
-    nav ul.mobile-sidebar{
+     .mobile-sidebar a{
         display: none;
     }
 
@@ -179,12 +207,15 @@ html,body{
         justify-content: center;
         align-self: center;
         justify-self: center;
+        transition: background-color 0.7s ease-in-out;
+        
     }
     ul i{
         padding-top: 3px;
     }
 
     ul.sidebar a:hover{
+        
         background-color: white;
         color: black;
         border: 1px solid black;
@@ -210,7 +241,7 @@ html,body{
         flex-direction: column;
         align-items: center;
         box-shadow:  5px 8px 5px lightblue;
-        transition: transform 0.5s ease-in-out;
+        transition: transform 0.3s ease-in-out;
         
     }
     .card:hover{
@@ -243,8 +274,8 @@ html,body{
         position : relative;
         height: 100vh;
         margin: 25px;
-        padding-top : 20px;
-        padding-inline: 30px;
+        padding-block : 20px;
+        padding-inline: 10px;
     }
     .big-map h1{
         text-align: center;
